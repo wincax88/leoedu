@@ -1,0 +1,78 @@
+/*nav*/
+.logo {
+    padding-top:10px;
+    margin-right:35px;
+    float:left;
+}
+
+/* line 88, ../sass/update.scss */
+.navbar-brand .leo-logo {
+    padding: 0;
+}
+/* line 91, ../sass/update.scss */
+.navbar-brand .leo-logo i {
+    font-size: 30px;
+    font-weight: normal;
+    color: #0bceff;
+    background-color: #0bceff;
+}
+
+.navbar-right span {
+    padding: 0 12px;
+}
+/* line 67, ../sass/update.scss */
+.nav span.tel {
+    float: left;
+    line-height: 36px;
+    padding-left: 2px;
+    font-size: 16px;
+    border-radius: 35px;
+    border: solid 1px #0bceff;
+    color: #0bceff;
+}
+/* line 76, ../sass/update.scss */
+.nav span.tel:before {
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    border: solid 1px #0bceff;
+    border-radius: 50%;
+    line-height: 30px;
+    text-align: center;
+    margin-right: 0px;
+}
+/* line 96, ../sass/update.scss */
+.nav .try {
+    margin: 0 0 0 20px;
+    cursor: pointer;
+}
+
+.nav li {
+    float:left;
+    color:#0bceff;
+    font-size:18px;
+}
+.nav li {
+    width:95px;
+    text-align:center;
+    margin-left:1px;
+}
+.nav li:hover,.nav li.current {
+    background:#0bceff;
+    color:#fff;
+    cursor:pointer;
+}
+.nav li.current a,.nav li:hover a {
+    color:#fff;
+}
+
+.navbar-brand.navbar-brand-new-padd{
+    padding: 8px 15px 15px 15px;
+    z-index: 9;
+}
+
+#main-menu a.navbar-brand i {
+    color: #0bceff;
+}
+
+/*nav-over*/

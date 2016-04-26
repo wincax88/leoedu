@@ -1,0 +1,145 @@
+<!-- HTML -->
+<section id="slide-1" class="homeSlide">
+    <div class="bcg"
+         data-center="background-position: 50% 0px;"
+         data-top-bottom="background-position: 50% -100px;"
+         data-anchor-target="#slide-1"
+    >
+        <div class="hsContainer">
+            <div class="hsContent"
+                 data-center="opacity: 1"
+                 data-106-top="opacity: 0"
+                 data-anchor-target="#slide-1 h2"
+            >
+                <h2>Fade out elements before <br>they leave viewport</h2>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section-map">
+    <div class="map" data-0="opacity:0;" data-200="opacity:1;">
+
+    </div>
+    <div class="dots hide">
+
+    </div>
+
+    <article class="container-fluid">
+        <div class="container-lg prel">
+            <div class="teachers-map">
+                <div class="p-abso t1">
+                    <img src="http://source.vipabc.com/Ext/images/website/abc/homePage/v3/Abril.png" class="hide">
+                </div>
+                <div class="p-abso t2">
+                    <img src="http://source.vipabc.com/Ext/images/website/abc/homePage/v3/Mattew.png" class="hide">
+                </div>
+                <div class="p-abso t3">
+                    <img src="http://source.vipabc.com/Ext/images/website/abc/homePage/v3/Dan.png" class="hide">
+                </div>
+                <div class="p-abso t4">
+                    <img src="http://source.vipabc.com/Ext/images/website/abc/homePage/v3/Fatme.png" class="hide">
+                </div>
+                <div class="p-abso t5">
+                    <img src="http://source.vipabc.com/Ext/images/website/abc/homePage/v3/Vatalili.png" class="hide">
+                </div>
+            </div>
+        </div>
+    </article>
+    <section class="backdrop hide"></section>
+    <article class="container prel">
+        <div class="teachers-float">
+            <div class="row">
+                <div class="col-md-5 col-xs-5 teachers-text hide">
+                    <!--data-650="left:-2%;opacity:0;" data-700="left:0;opacity:.8;"  data-800="left:0%;opacity:1;"-->
+
+                    <h3 class="small">
+                        汇集全球资深语言教育专家<br /> 英美师资，纯正专业
+                    </h3>
+                    <br>
+                    <p>
+                        4500多位全球外籍顾问团队，来自美国、加拿大、英国、澳洲等全球英美系国家，具有国际专业英语教学资格认证（TEFL/TESOL）及法律、医学、金融、营销、工程、设计等行业背景。
+                    </p>
+                    <p><a style="color:#e50012;" href="onlineenglish/tutor.html" onclick="ga('send', 'event', 'link', 'click', 'index_tutor');"> 了解更多外籍顾问<span class="glyphicon glyphicon-menu-right"></span></a></p>
+                </div>
+                <div class="col-md-8 col-xs-8">
+                    <!-- 为ECharts准备一个具备大小（宽高）的Dom -->
+                    <div id="main" style="width: 500px;height:500px;"></div>
+                    <script type="text/javascript">
+                        // 基于准备好的dom，初始化echarts实例
+                        var myChart = echarts.init(document.getElementById('main'));
+
+                        // 指定图表的配置项和数据
+                        var option = {
+
+                            tooltip: {
+                                trigger: 'item',
+                                formatter: "{a} <br/>{b}"
+                            },
+
+                            calculable: true,
+                            series: [
+                                {
+                                    name:'老师',
+                                    type:'funnel',
+                                    left: '10%',
+                                    top: 60,
+                                    //x2: 80,
+                                    bottom: 60,
+                                    width: '80%',
+                                    //height: {totalHeight} - y - y2,
+                                    min: 0,
+                                    max: 100,
+                                    minSize: '0%',
+                                    maxSize: '100%',
+                                    sort: 'ascending',
+                                    gap: 2,
+                                    label: {
+                                        normal: {
+                                            show: true,
+                                            position: 'inside'
+                                        },
+                                        emphasis: {
+                                            textStyle: {
+                                                fontSize: 20
+                                            }
+                                        }
+                                    },
+                                    labelLine: {
+                                        normal: {
+                                            length: 10,
+                                            lineStyle: {
+                                                width: 1,
+                                                type: 'solid'
+                                            }
+                                        }
+                                    },
+                                    itemStyle: {
+                                        normal: {
+                                            borderColor: '#fff',
+                                            borderWidth: 1
+                                        }
+                                    },
+                                    data: [
+                                        {value: 20, name: '理优老师'},
+                                        {value: 40, name: '学生评价＋学生成绩'},
+                                        {value: 60, name: '学科专家教授评选'},
+                                        {value: 80, name: '教育资格面试'},
+                                        {value: 100, name: '教育资历审核'}
+                                    ]
+                                }
+                            ]
+                        };
+
+                        // 使用刚指定的配置项和数据显示图表。
+                        myChart.setOption(option);
+                    </script>
+
+                </div>
+
+
+            </div>
+        </div>
+
+    </article>
+</section>

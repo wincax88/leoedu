@@ -1,0 +1,76 @@
+<!-- free listen modal // -->
+<div class="modal fade" id="free-listen-modal">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title">申请免费试听课</h4>
+            </div>
+            <div class="modal-body">
+
+                <form data-toggle="validator">
+                    <div class="form-group has-feedback">
+                        <div class="input-group">
+                            <span class="input-group-addon"><span class="icon-phone"></span></span>
+                            <input type="tel"  class="form-control" data-minlength="11" maxlength="11" name="tel" placeholder="家长手机号" data-error="请输入11位手机号" required>
+                        </div>
+                        <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+                        <div class="help-block with-errors"></div>
+                    </div>
+
+                    <div class="form-group has-feedback">
+                        <div class="input-group">
+                            <span class="input-group-addon"><span class="icon-grade"></span></span>
+                            <select class="form-control" name="grade" data-error="您需要选择一个" required>
+                                <option value="" selected disabled>请选择学生年级</option>
+                                <option value="400">学龄前</option>
+                                <option value="100">小学</option>
+                                <option value="200">初中</option>
+                                <option value="300">高中</option>
+                            </select>
+                        </div>
+                        <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+                        <div class="help-block with-errors"></div>
+
+                    </div>
+
+                    <div class="form-group has-feedback">
+                        <div class="input-group">
+                            <span class="input-group-addon"><i class="icon-subject"></i></span>
+                            <select class="form-control" name="grade" data-error="您需要选择一个" required>
+                                <option value="" selected disabled>请选择试听科目</option>
+                                <option value="2">数学</option>
+                                <option value="3">英语</option>
+                                <option value="4">化学</option>
+                                <option value="5">物理</option>
+                            </select>
+                        </div>
+                        <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+                        <div class="help-block with-errors"></div>
+
+                    </div>
+
+
+                    <div class="form-group has-feedback">
+                        <div class="input-group">
+                            <span class="input-group-addon icon-pad"></span>
+                            <select class="form-control" name="grade" data-error="您需要选择一个" required>
+                                <option value="" selected disabled>是否有Pad</option>
+                                <option value="1">有iPad</option>
+                                <option value="2">有安卓Pad</option>
+                                <option value="3">还没有</option>
+                            </select>
+                        </div>
+                        <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+                        <div class="help-block with-errors"></div>
+
+                    </div>
+
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary">立即预约</button>
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
