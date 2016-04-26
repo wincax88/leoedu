@@ -24,18 +24,21 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
 color: #999; 
 } 
 .btn-group.bootstrap-select .dropdown-toggle .filter-option{color:#484848;}
+/*
 #main-menu {padding: 0; transition: all 0.8s;}
 #main-menu.navbar-default {background-color: rgba(248, 248, 248, 0);}
 #main-menu.navbar-default { background-color:transparent\9;top: 40px;}
 #main-menu a.navbar-brand { text-transform: uppercase; font-size: 22px; color: #434242; font-weight: 900;font-family: 'Montserrat', sans-serif;}
+*/
 /*#main-menu a.navbar-brand i { color: #bbb;}*/
+/*
 #main-menu.navbar-default .navbar-nav > li > a { text-transform: uppercase; color: #fff;font-size: 16px; letter-spacing: 1px;}
-.on {background-color: #ffffff !important; /*padding: 0 !important;*/}
-.navbar.navbar-default.navbar-fixed-top { border-bottom: 1px solid transparent;top: auto;}
+.on {background-color: #ffffff !important;}*/
+/*.navbar.navbar-default.navbar-fixed-top { border-bottom: 1px solid transparent;top: auto;}
 .navbar-fixed-top{}
 .navbar.navbar-default.navbar-fixed-top.on { border-bottom: 1px solid #eee;}
-#main-menu.navbar-default.on .navbar-nav > li > a { color: #333;font-size: 16px;}
-.navbar-default .navbar-nav>li>a{font-size:16px;}
+#main-menu.navbar-default.on .navbar-nav > li > a { color: #333;font-size: 16px;}*/
+/*.navbar-default .navbar-nav>li>a{font-size:16px;}
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
@@ -44,11 +47,12 @@ color: #999;
     font-weight: 500;
     font-size: 16px;
     }
-.navbar-toggle { border-radius: 0;}
-/*.navbar-default .navbar-toggle:hover,*/
+.navbar-toggle { border-radius: 0;}*/
+/*.navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {background-color: #FEF7A4; border-color: #FEF7A4; color: #333;}
 .navbar-default .navbar-toggle:hover>.icon-bar {background-color: #333;}
-.default-body .navbar-default{background: #fff; border-bottom: 1px solid #eee !important;}
+
+.default-body .navbar-default{background: #fff; border-bottom: 1px solid #eee !important;}*/
 
 .flip-container { perspective: 1000; position: relative; z-index:1029}
 /* flip the pane when hovered */
@@ -1055,16 +1059,4 @@ footer.bg-gray-dark{background: #505050}
     background-image:none;
 }
 
-/* line 50, ../sass/update.scss */
-span.trial-courses-btn {
-    display: inline-block;
-    padding: 0 12px;
-    margin-top: 60px;
-    color: white;
-    background-color: #0bceff;
-    font-size: 16px;
-    line-height: 35px;
-    border-radius: 35px;
-    cursor: pointer;
-}
 

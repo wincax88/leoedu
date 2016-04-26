@@ -204,11 +204,9 @@ $("#owl-home").owlCarousel({
 $('#fixed-service-box div.iconfont').hover(
     function(){
         $(this).find('.float-wrapper').css('display','block').addClass('active');
-        console.log("hove 1");
     },
     function(){
         $(this).find('.float-wrapper').css('display','none').removeClass('active');
-        console.log("hove 2");
     }
 );
 
@@ -231,7 +229,8 @@ $(function(){
 $(document).ready(function() {
     var href = location.href.substring(location.href.lastIndexOf("/") + 1, 255);
     //alert(href);
-    $('#main-menu').find('a[href="' + href + '"]').parents('li').addClass('active');
+    var menu = $('#main-menu').find('a[href="' + href + '"]');
+    menu.parents('li').addClass('active');
     //$('#main-menu a[href="' + href + '"]').parent().addClass('active');
 
 });

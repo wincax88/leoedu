@@ -73,20 +73,15 @@ $(document).ready(function(){
         }
     }
 
-
-
-
-
-
-    // new 
+    // new
     window.trial_courses_panel = new CreatePanel({
         call_btn: $('.trial-courses-btn'),
-        snippet_url: '/src/trial_courses_panel.html',
+        snippet_url: '../baichuanim/trial_courses_panel.html',
         wrapper_id: 'trial-courses-panel-wrapper'
     });
 
     window.welcome_panel = new CreatePanel({
-        snippet_url: '/src/welcome_panel.html?v=20160325',
+        snippet_url: '../baichuanim/welcome_panel.html',
         wrapper_id: 'welcome-panel-wrapper'
     });
 
@@ -98,7 +93,7 @@ $(document).ready(function(){
             welcome_panel.init();
             return;
         }
-    }, 60000)
+    }, 60000) // 60000
 
 });
 

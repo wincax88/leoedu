@@ -1,0 +1,22 @@
+#myCarousel {
+    padding-top: 64px;
+}
+.section-tutor {
+    background-color: #f3f3f3;
+}
+
+.section-map {
+    background-color: #333;
+}
+
+.section-pad {
+    background-color: #f3f3f3;
+}
+
+.p-lg.bg-gray h2.text-center {
+    font-size: 32px;
+}
+
+.p-lg.bg-gray h2.text-center small {
+    font-size: 16px;
+}

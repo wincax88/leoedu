@@ -1,14 +1,10 @@
 {
   "index": {
     "pageTitle": "首页",
-    "banner1": "http://source.vipabc.com/Ext/images/website/abc/banner/homePage/banner/banner1_20151207.jpg",
-    "banner2": "http://source.vipabc.com/Ext/images/website/abc/banner/homePage/banner/banner3_20160120.jpg",
-    "banner3": "http://source.vipabc.com/Ext/images/website/abc/banner/homePage/banner/banner3_20160226.jpg",
-    "banner4": "http://source.vipabc.com/Ext/images/website/abc/banner/homePage/banner/banner4_20160308.jpg",
-    "banner1_href": "http://www.leoedu.cn/m/1v1?fromwhere=OQfvxud9dP",
-    "banner2_href": "http://www.leoedu.cn/m/1v1?fromwhere=IxuRLVWJxy",
-    "banner3_href": "http://lp.vipabc.com/program/linkage_page/autoMotorSport/index.asp?fromwhere=5uqBPLgmXl",
-    "banner4_href": "http://lp.vipabc.com/program/linkage_page/zbird3/index.asp?fromwhere=tFU4z8p82X",
+    "banner1": "./img/main_banner_01.jpg",
+    "banner2": "./img/main_banner_02.jpg",
+    "banner1_href": "#",
+    "banner2_href": "https://shop123923740.taobao.com",
     "adv1": {
       "title": "青少年英语",
       "image": "http://source.vipabc.com/Ext/images/website/abc/homePage/v3/index-1.jpg",

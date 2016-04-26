@@ -7,12 +7,12 @@
 
     inputs.bind('blur', function(){
         var result = getValidate($(this).parent());
-        console.log(result);
+        //console.log(result);
         handleChangeState($(this).parent(), result);
     });
 
     fake_selects.bind('click', function(){
-        
+
         if($(this).hasClass('release')){
             $(this).removeClass('release');
             $(this).find('.option').slideUp(200, function(){
@@ -20,7 +20,7 @@
             });
 
             var result = getValidate($(this).parent());
-            console.log(result);
+            //console.log(result);
             handleChangeState($(this).parent(), result);
         }else {
             $(this).addClass('release');
@@ -41,30 +41,30 @@
         $(this).slideUp(200, function(){
             $(this).parent().parent().css('z-index', '900');
         });
-        var result = getValidate($(this).parent().parent());
-        console.log(result);
-        handleChangeState($(this).parent().parent(), result);
+        //var result = getValidate($(this).parent().parent());
+
+        //handleChangeState($(this).parent().parent(), result);
     })
 
 
     var submit = $('.submit-btn button');
     submit.bind('click', function(){
 
-        var subject = $('.input-wrapper[name="subject"] .fake-select').val();
-        var grade = $('.input-wrapper[name="grade"] .fake-select').val();
-        var tel = $('.input-wrapper[name="tel"] input').val();
-        var has_pad = $('.input-wrapper[name="has-pad"] .fake-select').val();
+        var subject = $('.input-wrapper[name="subject"] .fake-select').attr('value');
+        var grade = $('.input-wrapper[name="grade"] .fake-select').attr('value');
+        var tel = $('.input-wrapper[name="tel"] input').attr('value');
+        var has_pad = $('.input-wrapper[name="has-pad"] .fake-select').attr('value');
 
-        // console.log(name, grade, tel, has_pad);
+        console.log(name, grade, tel, has_pad);
 
         if(subject=='' || grade=='' || tel=='' || has_pad==''){
             var alert = $('.alert-wrapper');
 
-          alert.removeClass('hidden');
-          alert.find('.confirm-btn').bind('click',function(){
-            alert.addClass('hidden');
-          })
-          return ;
+            alert.removeClass('hidden');
+            alert.find('.confirm-btn').bind('click',function(){
+                alert.addClass('hidden');
+            })
+            return ;
         }
 
         console.log(subject);
@@ -75,21 +75,22 @@
                 var alert = $('.alert-wrapper');
                 alert.find('.alert-info').text('请按照提示正确填写');
 
-                  alert.removeClass('hidden');
-                  alert.find('.confirm-btn').bind('click',function(){
+                alert.removeClass('hidden');
+                alert.find('.confirm-btn').bind('click',function(){
                     alert.addClass('hidden');
-                  })
-                  return ;
+                })
+                return ;
             }
         });
 
         $.ajax({
             url: '/book/free_lesson',
+            //url: 'http://www.leo1v1.com/book/free_lesson',
             data: {
                 'subject': subject,
                 'grade': grade,
                 'phone': tel,
-                'has_pad': has_pad 
+                'has_pad': has_pad
             },
             dataType: 'JSON',
             success: function(result){
@@ -104,7 +105,7 @@
                     return ;
                 } else {
                     var html = '';
-                    html += '<div class="img-ct" ><img src="./img/codetwo.png" alt=""></div>';
+                    html += '<div class="img-ct" ><img src="./new_page/images/codetwo.png" alt=""></div>';
                     html += '<p class="weixin">理优教育在线学习APP</p>';
                     html += '<p class="success">&nbsp&nbsp&nbsp&nbsp查看课程安排进度，了解更多课程信息请关注我们的微信公众号，1对1专属定制课程请拨打免费热线400-158-0101。</p>';
 
@@ -114,13 +115,13 @@
             },
             error: function(){
             }
-       });
+        });
     });
 
 
-    // close control 
+    // close control
     $('.trial-courses-panel > .close-btn').bind('click', function(){
-        console.log('aaaaaaaaaacloseeee');
+        //console.log('aaaaaaaaaacloseeee');
         window.trial_courses_panel.is_show = false;
         $('#trial-courses-panel-wrapper').css('display', 'none');
     })
@@ -133,10 +134,13 @@
         ele = $(ele);
         var type = ele.attr('name'),
             result;
-        console.log(type);
+        //console.log(type);
 
-        if((type == 'grade')||(type == 'has-pad')||(type == 'subject')){
-            result = ele.find('.fake-select').val();
+        if((type == 'grade')||(type == 'has-pad')||(type == 'subject')) {
+            result = ele.find('.fake-select').attr('value');
+
+            console.log(result);
+
             if(result == ''){
                 return false;
             }
@@ -156,22 +160,22 @@
         // ele must be .input-wrapper
         ele = $(ele);
         if(bool==true){
-            console.log('truuuuuuuuuuuue');
+            //console.log('truuuuuuuuuuuue');
             ele.removeClass('warn').addClass('correct');
             ele.find('.iconfont.state').removeClass('icon-warn').addClass('icon-correct');
             ele.parent().find('>p.warn').slideUp(200).data('warn','hidden');
-            var a = ele.parent().find('>p.warn').data('warn');
-            console.log(a);
+            //var a = ele.parent().find('>p.warn').data('warn');
+            //console.log(a);
         }else
         if(bool==false){
-            console.log('faaaaaaaaaalse');
+            //console.log('faaaaaaaaaalse');
             ele.removeClass('correct').addClass('warn');
             ele.find('.iconfont.state').removeClass('icon-correct').addClass('icon-warn');
             ele.parent().find('>p.warn').slideDown(200).data('warn', 'show');
             var a = ele.parent().find('>p.warn').data('warn');
-            console.log(a);
+            //console.log(a);
         }else {
-            console.log('defauuuuuuuuuuult');
+            //console.log('defauuuuuuuuuuult');
             ele.removeClass('correct warn');
             ele.find('.iconfont.state').removeClass('icon-correct icon-warn');
         }

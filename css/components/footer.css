@@ -31,9 +31,11 @@
     height:112px;
     position:relative;
 }
+
 .foot_left .foot_cont .wechat_code img {
-    position:absolute;
-    left:170px;
+    /*position:relative;
+    left:8%;*/
+    margin-left: 58px;
     top:0;
 }
 /* line 152, ../sass/update.scss */
