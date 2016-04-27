@@ -24,35 +24,6 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
 color: #999; 
 } 
 .btn-group.bootstrap-select .dropdown-toggle .filter-option{color:#484848;}
-/*
-#main-menu {padding: 0; transition: all 0.8s;}
-#main-menu.navbar-default {background-color: rgba(248, 248, 248, 0);}
-#main-menu.navbar-default { background-color:transparent\9;top: 40px;}
-#main-menu a.navbar-brand { text-transform: uppercase; font-size: 22px; color: #434242; font-weight: 900;font-family: 'Montserrat', sans-serif;}
-*/
-/*#main-menu a.navbar-brand i { color: #bbb;}*/
-/*
-#main-menu.navbar-default .navbar-nav > li > a { text-transform: uppercase; color: #fff;font-size: 16px; letter-spacing: 1px;}
-.on {background-color: #ffffff !important;}*/
-/*.navbar.navbar-default.navbar-fixed-top { border-bottom: 1px solid transparent;top: auto;}
-.navbar-fixed-top{}
-.navbar.navbar-default.navbar-fixed-top.on { border-bottom: 1px solid #eee;}
-#main-menu.navbar-default.on .navbar-nav > li > a { color: #333;font-size: 16px;}*/
-/*.navbar-default .navbar-nav>li>a{font-size:16px;}
-.navbar-default .navbar-nav > .active > a,
-.navbar-default .navbar-nav > .active > a:hover,
-.navbar-default .navbar-nav > .active > a:focus {
-    color: #f84c4c !important;
-    background-color: transparent;
-    font-weight: 500;
-    font-size: 16px;
-    }
-.navbar-toggle { border-radius: 0;}*/
-/*.navbar-default .navbar-toggle:hover,
-.navbar-default .navbar-toggle:focus {background-color: #FEF7A4; border-color: #FEF7A4; color: #333;}
-.navbar-default .navbar-toggle:hover>.icon-bar {background-color: #333;}
-
-.default-body .navbar-default{background: #fff; border-bottom: 1px solid #eee !important;}*/
 
 .flip-container { perspective: 1000; position: relative; z-index:1029}
 /* flip the pane when hovered */
@@ -285,11 +256,6 @@ span.img{width: 100px; height: 100px; display:block;  position: absolute; z-inde
 .home-body p{line-height: 2em; font-size: 14px;}
 
 
-
-.team{position: relative; height: 570px; overflow: hidden}
-.team-img{position: absolute; right: 46%; bottom: 0; background: url("http://source.vipabc.com/Ext/images/website/abc/homePage/v3/comp-2-100.png") no-repeat;width: 703px; height: 563px;}
-.team-bg{background: #f3f3f3; }
-/*.team-bg{background: #dbdbdb}*/
 
 .home-media{width: 770px; margin-left: auto; margin-right: auto}
 .talk.media{margin-top: 30px; position: relative}

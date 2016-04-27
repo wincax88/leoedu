@@ -52,10 +52,12 @@
 
         var subject = $('.input-wrapper[name="subject"] .fake-select').attr('value');
         var grade = $('.input-wrapper[name="grade"] .fake-select').attr('value');
-        var tel = $('.input-wrapper[name="tel"] input').attr('value');
+        var tel = $('.input-wrapper[name="tel"] input').val();
         var has_pad = $('.input-wrapper[name="has-pad"] .fake-select').attr('value');
 
-        console.log(name, grade, tel, has_pad);
+        //console.log(name, grade, tel, has_pad);
+
+        //console.log('phone number : ' + tel);
 
         if(subject=='' || grade=='' || tel=='' || has_pad==''){
             var alert = $('.alert-wrapper');
@@ -84,15 +86,15 @@
         });
 
         $.ajax({
-            url: '/book/free_lesson',
-            //url: 'http://www.leo1v1.com/book/free_lesson',
+            //url: '/book/free_lesson',
+            url: 'http://admin.yb1v1.com/common_ex/book_free_lesson',
             data: {
                 'subject': subject,
                 'grade': grade,
                 'phone': tel,
                 'has_pad': has_pad
             },
-            dataType: 'JSON',
+            dataType: 'JSONP',
             success: function(result){
                 if (result['ret'] != 0) {
                     var alert = $('.alert-wrapper');
@@ -139,7 +141,7 @@
         if((type == 'grade')||(type == 'has-pad')||(type == 'subject')) {
             result = ele.find('.fake-select').attr('value');
 
-            console.log(result);
+            //console.log(result);
 
             if(result == ''){
                 return false;
@@ -149,6 +151,7 @@
 
         if(type == 'tel'){
             result = ele.find('input').val();
+            // console.log(result);
             if(result.length!==11){
                 return false
             }

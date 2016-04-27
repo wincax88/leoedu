@@ -1,5 +1,5 @@
 <!-- banner -->
-<div id="myCarousel" class="carousel slide">
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
     <!-- 轮播（Carousel）指标 -->
     <ol class="carousel-indicators">
         <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -8,9 +8,7 @@
     <!-- 轮播（Carousel）项目 -->
     <div class="carousel-inner">
         <div class="item active">
-            <a onclick="ga('send', 'event', 'link', 'click', 'Banner1 Btn');" href=<%- locals.banner1_href %> target="_blank">
-                <img  src=<%- locals.banner1 %> alt=""/>
-            </a>
+            <img  src=<%- locals.banner1 %> alt=""/>
         </div>
         <div class="item">
             <a onclick="ga('send', 'event', 'link', 'click', 'Banner2 Btn');" href=<%- locals.banner2_href %> target="_blank">
@@ -18,8 +16,10 @@
             </a>
         </div>
     </div>
-    <!-- 轮播（Carousel）导航 -->
+
+    <!-- 轮播（Carousel）导航-->
     <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
     <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
+
 </div>
 <!-- banner end -->

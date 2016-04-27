@@ -98,9 +98,7 @@
     <!-- 轮播（Carousel）项目 -->
     <div class="carousel-inner">
         <div class="item active">
-            <a onclick="ga('send', 'event', 'link', 'click', 'Banner1 Btn')" href="#" target="_blank">
-                <img src="./img/main_banner_01.jpg" alt="">
-            </a>
+            <img src="./img/main_banner_01.jpg" alt="">
         </div>
         <div class="item">
             <a onclick="ga('send', 'event', 'link', 'click', 'Banner2 Btn')" href="https://shop123923740.taobao.com" target="_blank">
@@ -117,7 +115,7 @@
     <article class="container">
         <div>
             <div class="row">
-                <div class="col-lg-5 teachers-text">
+                <div class="col-lg-5 col-md-5 tutor-text">
                     <!--data-650="left:-2%;opacity:0;" data-700="left:0;opacity:.8;"  data-800="left:0%;opacity:1;"-->
 
                     <h3 class="small">
@@ -131,102 +129,32 @@
                     <p><a style="color:#e50012;" href="onlineenglish/tutor.html" onclick="ga('send', 'event', 'link', 'click', 'index_tutor');"> 了解更多外籍顾问<span class="glyphicon glyphicon-menu-right"></span></a></p>
                     //-->
                 </div>
-                <div class="col-lg-7">
+                <div class="col-lg-7 col-md-7 tutor-chart">
                     <!-- 为ECharts准备一个具备大小（宽高）的Dom -->
-                    <div id="main" style="width: 100%;height:500px"></div>
-                    <script type="text/javascript">
-                        // 基于准备好的dom，初始化echarts实例
-                        var myChart = echarts.init(document.getElementById('main'));
-
-                        // 指定图表的配置项和数据
-                        option = {
-
-                            tooltip: {
-                                trigger: 'item',
-                                formatter: "{a} <br/>{b}"
-                            },
-
-                            calculable: true,
-                            series: [
-                                {
-                                    name:'理优名师',
-                                    type:'funnel',
-                                    left: '10%',
-                                    top: 60,
-                                    //x2: 80,
-                                    bottom: 60,
-                                    width: '80%',
-                                    // height: {totalHeight} - y - y2,
-                                    min: 0,
-                                    max: 100,
-                                    minSize: '0%',
-                                    maxSize: '100%',
-                                    sort: 'ascending',
-                                    gap: 2,
-                                    label: {
-                                        normal: {
-                                            show: false,
-                                            position: 'inside',
-                                        },
-                                        emphasis: {
-                                            textStyle: {
-                                                fontSize: 11
-                                            }
-                                        }
-                                    },
-                                    labelLine: {
-                                        normal: {
-                                            length: 10,
-                                            lineStyle: {
-                                                width: 1,
-                                                type: 'solid'
-                                            }
-                                        }
-                                    },
-                                    itemStyle: {
-                                        normal: {
-                                            borderColor: '#fff',
-                                            borderWidth: 1
-                                        }
-                                    },
-                                    data: [
-                                        {value: 100, name: '第一轮教育资质面试（优先10年以上教学经验，学科带头人）'},
-                                        {value: 80,  name: '第二轮教育经验名师（熟悉当地教材，准确把握中考命题方向）'},
-                                        {value: 60, name: '第三轮学科专家面试（理优学科专家筛选，具备在线教育的感觉）'},
-                                        {value: 40,  name: '第四轮用户评价筛选（学生评价好评率需达到80%以上）'},
-                                        {value: 20, name: '理优名师，全国金字塔顶尖的老师'}
-                                    ]
-                                }
-                            ]
-                        };
-
-                        // 使用刚指定的配置项和数据显示图表。
-                        myChart.setOption(option);
-                    </script>
+                    <div id="main_tutor" style="width: 100%;height: 100%"></div>
+                    <script src="/js/tutor_chart.js"></script>
 
                 </div>
-
-
             </div>
         </div>
-
     </article>
 </section>
+
+
     <section class="section-map" id="section-map">
     <article class="container">
         <div>
             <div class="row">
-                <div class="col-lg-7">
+                <div class="col-lg-7 col-md-7 map-chart">
                     <!-- 为ECharts准备一个具备大小（宽高）的Dom -->
-                    <div id="main_map" style="width: 100%;height:500px"></div>
+                    <div id="main_map" style="width: 100%;height:100%"></div>
                     <script src="/js/knowledge_map.js"></script>
                 </div>
-                <div class="col-lg-5">
+                <div class="col-lg-5 col-md-5 map-text">
                     <!--data-650="left:-2%;opacity:0;" data-700="left:0;opacity:.8;"  data-800="left:0%;opacity:1;"-->
 
                     <h3 class="small">
                         知识点一网打尽，个性化课程体系量身定制学习计划
-                        <br>
                     </h3>
                     <br>
                     <p>
@@ -248,21 +176,21 @@
     <section class="section-pad" id="section-pad">
     <article class="container">
         <div class="row">
-            <div class="col-lg-6">
+            <div class="col-lg-5 col-md-5 lean-text">
                 <!--data-650="left:-2%;opacity:0;" data-700="left:0;opacity:.8;"  data-800="left:0%;opacity:1;"-->
 
                 <h3 class="small">
-                    创新的在线学习模式，最好玩的直播课堂
+                    创新的在线学习模式<br>最好玩的直播课堂
                 </h3>
                 <br>
                 <p>
-                    领先的在线直播和电子白板技术，超越传统课堂的在线学习体验，在家里用Ipad即可与老师进行实时语音互动学习。
+                    领先的在线直播和电子白板技术，超越传统课堂的在线学习体验，在家里用iPad即可与老师进行实时语音互动学习。
                 </p>
                 <!--
                 <p><a style="color:#e50012;" href="onlineenglish/tutor.html" onclick="ga('send', 'event', 'link', 'click', 'index_tutor');"> 了解更多外籍顾问<span class="glyphicon glyphicon-menu-right"></span></a></p>
                 //-->
             </div>
-            <div class="col-lg-6">
+            <div class="col-lg-7 col-md-7">
                 <!-- 为ECharts准备一个具备大小（宽高）的Dom -->
                 <div id="main" style="width: 100%;height:500px"></div>
 
@@ -277,8 +205,8 @@
     </h2>
     <article class="container mt-md">
         <div class="row member-feel home">
-            <div class="col-md-4 col-xs-4">
-                <div class="thumbnail">
+            <div class="col-lg-4 col-md-4">
+                <div class="thumbnail hovereffect">
                     <span class="hide-img2">
                         <img src="../img/jinchengjie.png" alt="..." onclick="ga('send', 'event', 'link', 'click', 'index_tutor')">
                     </span>
@@ -290,8 +218,8 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 col-xs-4">
-                <div class="thumbnail">
+            <div class="col-lg-4 col-md-4">
+                <div class="thumbnail hovereffect">
                     <span class="hide-img2">
                         <img src="../img/xubeiyi.png" alt="..." onclick="ga('send', 'event', 'link', 'click', 'index_tutor')">
                     </span>
@@ -304,8 +232,8 @@
                      </div>
                 </div>
             </div>
-            <div class="col-md-4 col-xs-4">
-                <div class="thumbnail">
+            <div class="col-lg-4 col-md-4">
+                <div class="thumbnail hovereffect">
                     <span class="hide-img2">
                         <img src="../img/chenfangyi.png" alt="..." onclick="ga('send', 'event', 'link', 'click', 'index_tutor')">
                     </span>
@@ -322,18 +250,15 @@
 </section>
 
     <section class="team team-bg">
-
-    <div class="team-img" data-1600="bottom:-200px;" data-1800="bottom:-100px;" data-2000="bottom:0px;;">
-
-
-        <video preload="auto" id="Comp">
-            <source src="http://source.vipabc.com/Ext/video/homePage/v3/Comp%202_100.mp4" type="video/mp4">
-        </video>
-    </div>
     <article class="container container-lg">
+        <div class="team-img">
+            <video preload="auto" id="Comp">
+                <source src="http://source.vipabc.com/Ext/video/homePage/v3/Comp%202_100.mp4" type="video/mp4">
+            </video>
+        </div>
         <div class="row">
             <div class="col-md-7 col-xs-7"></div>
-            <div class="col-md-5 col-xs-5 prel" data-1800="bottom:-150px;opacity:0.8;" data-2200="bottom:-70px;opacity:1;">
+            <div class="col-md-5 col-xs-5 team-text" data-1800="bottom:-150px;opacity:0.8;" data-2200="bottom:-70px;opacity:1;">
                 <h3 class="small">
                     7*24小时管家式学习服务<br>
                 </h3>

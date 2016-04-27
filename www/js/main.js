@@ -234,3 +234,71 @@ $(document).ready(function() {
     //$('#main-menu a[href="' + href + '"]').parent().addClass('active');
 
 });
+if (!(/msie [6|7|8]/i.test(navigator.userAgent))) {
+    var Media = document.getElementById("Comp");
+    var isFirst = true;
+    function mediaPlay() {
+        if (isFirst) {
+            Media.play();
+            isFirst = false;
+        }
+    }
+    //    Media.play();
+    /* function teachersImg(){
+     $('.teachers-map img').addClass('animated bounceIn').removeClass('hide')
+     }*/
+    function dots() {
+        $('.dots').addClass('animated fadeIn').removeClass('hide')
+    }
+    function backdrop() {
+        $('.backdrop').addClass('animated fadeIn-b').removeClass('hide')
+    }
+    function teachersText() {
+        $('.teachers-text').addClass('animated fadeIn').removeClass('hide')
+    }
+    function teachersIpad() {
+        $('.teachers-ipad').addClass('animated fadeIn').removeClass('hide')
+    }
+
+    function initSkrollr() {
+        window.skr = skrollr.init({
+            render: function (data) {
+                if (data.curTop > 0) {
+
+                    $('#main-menu').css("top", "0");
+                } else {
+
+                    $('#main-menu').css("top", "40px");
+                }
+                if (data.curTop >= 200) {
+                    $('#main-menu').addClass('on');
+                } else {
+                    $('#main-menu').removeClass('on');
+                }
+                if (data.curTop >= 300) {
+                    $('#main-menu').addClass('on2');
+                } else {
+                    $('#main-menu').removeClass('on2');
+                }
+                //Log the current scroll position.
+                //console.log(data.curTop);
+                if (data.curTop >= 2000) {
+                    mediaPlay();
+                }
+                if (data.curTop >= 200) {
+                    setTimeout("dots()", 500)
+                    //                setTimeout("teachersImg()", 2000)
+                    setTimeout("backdrop()", 750)
+                    setTimeout("teachersText()", 1500)
+                    setTimeout("teachersIpad()", 750)
+                }
+                if (data.curTop >= 600) {
+                    teachersIpad()
+                }
+            },
+            forceHeight: false
+        });
+    }
+
+    initSkrollr();
+}
