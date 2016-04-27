@@ -4,37 +4,9 @@
     "banner1": "./img/main_banner_01.jpg",
     "banner2": "./img/main_banner_02.jpg",
     "banner1_href": "#",
-    "banner2_href": "https://shop123923740.taobao.com",
-    "adv1": {
-      "title": "青少年英语",
-      "image": "http://source.vipabc.com/Ext/images/website/abc/homePage/v3/index-1.jpg",
-      "href": "http://www.leoedu.cn/m/1v1/",
-      "desc": "专注于6-18岁青少年语言发展，提供优质纯正有趣的语言环境",
-      "arrow_image": "http://source.vipabc.com/Ext/images/website/abc/homePage/v3/banner_hover_arrow.png"
-    },
-    "adv2": {
-      "title": "免费公开课",
-      "image": "http://source.vipabc.com/Ext/images/website/abc/homePage/v3/index-2.png",
-      "href": "http://www.leoedu.cn/m/1v1/",
-      "desc": "这里有最受欢迎的免费公开课，热门话题、独家学习技巧…等你参与",
-      "arrow_image": "http://source.vipabc.com/Ext/images/website/abc/homePage/v3/banner_hover_arrow.png"
-    },
-    "adv3": {
-      "title": "企业用户",
-      "image": "http://source.vipabc.com/Ext/images/website/abc/homePage/v3/index-3.jpg",
-      "href": "http://www.leoedu.cn/m/1v1/?fromwhere=eW3TXy6ilK",
-      "desc": "为企业提供专业有效的语言培训，真正做到即学即用",
-      "arrow_image": "http://source.vipabc.com/Ext/images/website/abc/homePage/v3/banner_hover_arrow.png"
-    },
-    "adv4": {
-      "title": "",
-      "image": "http://source.vipabc.com/ext/images/website/abc/homePage/v3/pc/M4_banner20160322.jpg",
-      "href": "http://cn.vipabc.com/wnfs?fromwhere=qM9Gk8fcFL",
-      "desc": "vipabc为大型公益活动“为你发声”提供独家在线支教平台",
-      "arrow_image": "http://source.vipabc.com/Ext/images/website/abc/homePage/v3/banner_hover_arrow.png"
-    }
+    "banner2_href": "https://shop123923740.taobao.com"
   },
-  "download-app":{
+  "download":{
     "pageTitle": "APP下载"
   },
   "join-us":{

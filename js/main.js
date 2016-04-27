@@ -187,10 +187,11 @@ if (navigator.userAgent.match(/iPad/i)) {
 }
 */
 //banner轮播
+/*
 $("#owl-home").owlCarousel({
 
     autoPlay: 5000,
-    /*stopOnHover: true,*/
+
     navigation: true,
     slideSpeed: 300,
     lazyLoad: true,
@@ -199,7 +200,7 @@ $("#owl-home").owlCarousel({
     transitionStyle: "fade",
     addClassActive: true
 
-});
+});*/
 
 $('#fixed-service-box div.iconfont').hover(
     function(){

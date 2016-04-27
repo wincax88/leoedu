@@ -85,11 +85,13 @@ h3.small {
 
 .section-map {
     height: 600px;
-    background-color: #333;
+    position: relative;
+    background:#333;
 }
 
 .map-chart {
-    height: 600px;
+    height: 500px;
+    width: 500px;
 }
 
 .map-text {
@@ -126,7 +128,7 @@ h3.small {
 /*.team-bg{background: #dbdbdb}*/
 
 .lean-text {
-    padding-top: 100px;
+    padding-top: 20px;
     line-height: 2.0em
 }
 
@@ -136,7 +138,7 @@ h3.small {
 }
 
 .section-pad {
-    height: 600px;
+    height: 700px;
     background-color: #f3f3f3;
 }
 
@@ -147,12 +149,27 @@ h3.small {
 }
 
 .ipad-min {
-    /*position: fixed;*/
-    top: 50%;
-    left: 50%;
-    background-image: url("http://source.vipabc.com/Ext/images/website/abc/homePage/v3/ipad-min.png") no-repeat;
-    background-size:contain;
-    width:50%;
-    height: 50%;
-    -webkit-transform: translateX(-50%) translateY(-50%);
+    display:block;
+    width: 780px;
+    height: 520px;
+    background: url("http://source.vipabc.com/Ext/images/website/abc/homePage/v3/ipad-min.png") no-repeat center center;
+    background-size: contain;
+    text-align:center;
+    margin:0 auto;
+}
+
+.section-pad .text-center {
+    padding-top: 20px;
+}
+.section-pad h2.text-center {
+    font-size: 32px;
+}
+
+.section-pad h2.text-center small {
+    font-size: 16px;
+}
+
+.home-teachers {
+    padding-top: 35px;
+    padding-right: 13px;
 }

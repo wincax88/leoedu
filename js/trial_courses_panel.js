@@ -107,7 +107,7 @@
                     return ;
                 } else {
                     var html = '';
-                    html += '<div class="img-ct" ><img src="./new_page/images/codetwo.png" alt=""></div>';
+                    html += '<div class="img-ct" ><img src="./img/codetwo.png" alt=""></div>';
                     html += '<p class="weixin">理优教育在线学习APP</p>';
                     html += '<p class="success">&nbsp&nbsp&nbsp&nbsp查看课程安排进度，了解更多课程信息请关注我们的微信公众号，1对1专属定制课程请拨打免费热线400-158-0101。</p>';
 

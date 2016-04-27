@@ -5,8 +5,20 @@ h3.small {
 #myCarousel {
     padding-top: 64px;
 }
-.section-pad {
-    background-color: #f3f3f3;
+
+.carousel-control {
+    color:#FFF;
+    font-size:60px;
+    background-image:none;
+    background: none;
+    border: none;
+}
+
+.carousel-control.right, .carousel-control.left {
+    top: 50%;
+    background-image:none;
+    background: none;
+    border: none;
 }
 
 .p-lg.bg-gray h2.text-center {
@@ -121,4 +133,26 @@ h3.small {
 .lean-text p {
     font-size: 16px;
     line-height: 2.0em
+}
+
+.section-pad {
+    height: 600px;
+    background-color: #f3f3f3;
+}
+
+.ipad-video {
+    position: relative;
+    top: 50%;
+    background-color: #000;
+}
+
+.ipad-min {
+    /*position: fixed;*/
+    top: 50%;
+    left: 50%;
+    background-image: url("http://source.vipabc.com/Ext/images/website/abc/homePage/v3/ipad-min.png") no-repeat;
+    background-size:contain;
+    width:50%;
+    height: 50%;
+    -webkit-transform: translateX(-50%) translateY(-50%);
 }

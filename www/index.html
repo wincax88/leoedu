@@ -75,8 +75,8 @@
   <div class="collapse navbar-collapse" id="navbar-collapse">
     <ul class="nav navbar-nav" id="main-menu">
       <li><a href="index.html">首页</a></li>
-      <li><a href="download-app" onclick="ga('send', 'event', 'link', 'click', 'nav_tutor');">APP下载</a></li>
-      <li><a href="join-us" onclick="ga('send', 'event', 'link', 'click', 'nav_course');">加入我们</a></li>
+      <li><a href="download-app.html" onclick="ga('send', 'event', 'link', 'click', 'nav_tutor');">APP下载</a></li>
+      <li><a href="join-us.html" onclick="ga('send', 'event', 'link', 'click', 'nav_course');">加入我们</a></li>
     </ul>
     <ul class="navbar-text navbar-right">
       <span class="tel iconfont icon-tel">400-158-0101</span>
@@ -89,7 +89,7 @@
 
   <div id="skrollr-body">
     <!-- banner -->
-<div id="myCarousel" class="carousel slide">
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
     <!-- 轮播（Carousel）指标 -->
     <ol class="carousel-indicators">
         <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -106,9 +106,11 @@
             </a>
         </div>
     </div>
-    <!-- 轮播（Carousel）导航 -->
+
+    <!-- 轮播（Carousel）导航-->
     <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
     <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
+
 </div>
 <!-- banner end -->
     <section class="section-tutor">
@@ -191,10 +193,16 @@
                 //-->
             </div>
             <div class="col-lg-7 col-md-7">
-                <!-- 为ECharts准备一个具备大小（宽高）的Dom -->
-                <div id="main" style="width: 100%;height:500px"></div>
+                <div class="ipad-min">
+                    <div class="home-teachers">
+                        <video autoplay="autoplay" width="164" loop="loop" poster="">
+                            <source src="http://source.vipabc.com/Ext/video/homePage/v3/home-teachers-1.mp4" type="video/mp4">
+                        </video>
+                    </div>
 
+                </div>
             </div>
+
         </div>
     </article>
 </section>
