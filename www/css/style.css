@@ -25,7 +25,7 @@ color: #999;
 } 
 .btn-group.bootstrap-select .dropdown-toggle .filter-option{color:#484848;}
 
-.flip-container { perspective: 1000; position: relative; z-index:1029}
+
 /* flip the pane when hovered */
 .flip-container:hover .flipper, .flip-container.hover .flipper {
     transform: rotateY(180deg);}
@@ -46,22 +46,14 @@ color: #999;
 .back {transform: rotateY(180deg);   background: #f3f3f3;}
 .flip-container:hover .back{z-index: 3; backface-visibility:visible;}
 .flip-container:hover .front{display: none}
-.banner-video{
-    background: url("http://source.vipabc.com/Ext/images/website/abc/homePage/v3/home-video.png") no-repeat top;
-    width: 100%;
-    height: 624px;
-    overflow: hidden
-    }
+
 .banner-home{width: 100%;height: auto;}
 .banner-video .home-video{position: relative; z-index: 998; width: 100%;}
 .banner-video .content{color: #fff; text-align:center; padding-top: 160px; position: absolute; top: 0;left: 0;right: 0; z-index: 999}
 .banner-video h1{margin-bottom: 20px;font-size:60px; margin-top: 0}
 .banner-video .lead{font-size: 20px; margin-bottom: 40px;}
 .banner-video a{color: #fff; text-decoration:underline}
-.banner-teacher{background: url("http://source.vipabc.com/Ext/images/website/abc/homePage/v3/teachers-banner.jpg") no-repeat center; width: 100%;height: 330px;  }
-.banner-course{background: url("http://source.vipabc.com/Ext/images/website/abc/homePage/v3/course-banner.jpg") no-repeat center; width: 100%;height: 330px;}
-/*.banner-course.banner-course2{background: url("http://source.vipabc.com/Ext/images/website/abc/homePage/v3/course-banner2.jpg") no-repeat center; width: 100%;height: 330px; position: relative;}*/
-.banner-course.banner-course2{background: url("http://source.vipabc.com/Ext/images/website/abc/homePage/v3/course-banner2.jpg") no-repeat center; width: 100%;height: 330px; position: relative;}
+
 .backdrop3{
     background: rgba(0, 0, 0, 0.5) none repeat scroll 0 0;
     height: 330px;
@@ -149,8 +141,7 @@ color: #999;
     /*background-color:rgba(255,255,255,0.015);*/
     background-color: #fa2828;
 }
-/*background:url("http://source.vipabc.com/Ext/images/website/abc/homePage/v3/mac-bg.png") */
-.mac-bg{background:url("http://source.vipabc.com/Ext/images/website/abc/homePage/v3/mac-bg.png") no-repeat right bottom; width: 920px; height:520px; position: relative}
+
 .nav-tabs{border: none;}
 .nav-tabs li{float: none}
 .nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover{border:none; color: #f74c4c; background: none}
@@ -158,14 +149,7 @@ color: #999;
 .nav-tabs > li > a:hover{background: none; color: #f74c4c; border: none}
 .tabs-left{position: relative;height: 520px; float: left; width: 246px;}
 
-.ipad-min{width: 780px; height: 660px; background: url("http://source.vipabc.com/Ext/images/website/abc/homePage/v3/ipad-min.png") no-repeat;}
-.ipad-min2{width: 780px; height: 520px; background: url("http://source.vipabc.com/Ext/images/website/abc/homePage/v3/ipad-min2.png") no-repeat right bottom;}
-.ipad-min2-po{position: absolute; right: -105px;}
-.ipad-min2-po .tab-pane{position: relative}
-.ipad-min2-po .tab-pane>.bottom{position: absolute; bottom: 20px;left:-150px;}
-/*.iphone-bg{position: absolute; right: 500px; bottom: 20px; background: url("http://source.vipabc.com/Ext/images/website/abc/homePage/v3/iphone-bg.png") no-repeat; width: 300px; height: 150px;  z-index: 10}*/
-.iphone-bg{position: absolute; right: 500px; bottom: 20px; background: url("http://source.vipabc.com/Ext/images/website/abc/homePage/v3/iphone-bg.png") no-repeat; width: 300px; height: 150px;  z-index: 10}
-.ipad-bg{position: absolute; right: 0px; bottom:20px;background: url("http://source.vipabc.com/Ext/images/website/abc/homePage/v3/ipad-sm.png"); width: 510px; height: 340px; z-index: 9}
+
 
 .list{text-align: center}
 .list>div>div{background: #fff; position: relative; color: #666; padding-bottom: 10px; border-radius: 6px;}
@@ -214,22 +198,12 @@ span.img{width: 100px; height: 100px; display:block;  position: absolute; z-inde
 .teachers-info>h2{line-height: 150%}
 .teachers-info h3{font-size: 31px; line-height: 1.5em}
 .teachers-info>div{line-height: 180%}
-.teachers-img3{background: url("http://source.vipabc.com/Ext/images/website/abc/homePage/v3/teachers-3.png") left bottom no-repeat; height: 475px; position:relative; bottom: -70px;}
 .teachers-img3 .title{position: absolute; right: 8px; top:13px; width: 60%}
 
 .num-info h2{font-size: 60px; font-weight: normal}
 .num-info .red{color: #f74c4c; }
 
 /*home*/
-.section-map{
-    /*background: url("http://source.vipabc.com/Ext/images/website/abc/homePage/v3/map.jpg") center no-repeat;*/
-    height: 670px; position: relative; background:#20252d; }
-.section-map .map{position: absolute;  left:0; right:0;height: 670px; background:url("http://source.vipabc.com/Ext/images/website/abc/homePage/v3/map.svg") center;
-    background: url("http://source.vipabc.com/Ext/images/website/abc/homePage/v3/mapdots.png") no-repeat center\9;width: 100%;}
-.section-map .dots{position: absolute; left:50px; top: 45px; width: 100%; height:670px; background: url("http://source.vipabc.com/Ext/images/website/abc/homePage/v3/dots.svg") center no-repeat; }
-.section-map .teachers-map{height: 670px; position: relative;  overflow: hidden;}
-.teachers-box{width:126px;height:200px; ;background: url("http://source.vipabc.com/Ext/images/website/abc/homePage/v3/rectangle-bg.png") no-repeat; position: absolute;
-    text-align: center; padding-top: 30px;padding-bottom: 30px; color: #fff}
 .p-abso{position: absolute}
 .t1{left: 20px;bottom:54%;  }
 .t2{left: 447px;bottom:64%; }
@@ -248,10 +222,6 @@ span.img{width: 100px; height: 100px; display:block;  position: absolute; z-inde
 .prel{position: relative}
 
 .ip-1{position: absolute; right: -355px; z-index: 9}
-.ipad-1{width: 100%; height: 540px;
-    /*background: url("http://source.vipabc.com/Ext/images/website/abc/homePage/v3/ipad1.png") no-repeat center bottom;*/
-    position: relative; z-index: 10; overflow: hidden}
-.ipad-hand{width:982px; height: 460px; background: url("http://source.vipabc.com/Ext/images/website/abc/homePage/v3/ipad-hand.png") no-repeat center 347%; position: absolute; z-index: 11;left: 48.9%; bottom: 0}
 .home-body h3{line-height: 1.8em}
 .home-body p{line-height: 2em; font-size: 14px;}
 
@@ -282,12 +252,9 @@ span.img{width: 100px; height: 100px; display:block;  position: absolute; z-inde
 .custom-list li{float: left; padding: 12px;}
 
 
-.home-teachers-1{position: absolute; top: 82px;left: 92px; z-index: 10; background: url("http://source.vipabc.com/Ext/images/website/abc/homePage/v3/home1.png") no-repeat;width: 164px;height: 150px;}
-.home-teachers-2{position: absolute; top: 82px;left: 92px; z-index: 10; background: url("http://source.vipabc.com/Ext/images/website/abc/homePage/v3/home2.png") no-repeat;width: 164px;height: 150px;}
 
 .teachers-body .bg-gray .pt-150{padding-top: 150px}
 
-.form-wrap{background: url("http://source.vipabc.com/Ext/images/website/abc/homePage/v3/ipad2.jpg") no-repeat center; height: 560px}
 
 footer{height: 485px;padding: 95px 0}
 footer h5{font-size: 16px; margin-top: 0}
@@ -390,12 +357,6 @@ option{width: 100%}
 .banner-community  .carousel-indicators li.active .name{ display: block;line-height: 20px;}
 /*.banner-community  .carousel-indicators li:hover .name{display: block}*/
 
-.banner-community .item{width: 100%; height: 400px; }
-.banner-community .slide1{ background: url("http://source.vipabc.com/Ext/images/website/abc/homePage/v3/pic01-josh.jpg") no-repeat center}
-.banner-community .slide2{ background: url("http://source.vipabc.com/Ext/images/website/abc/homePage/v3/pic01-steve.jpg") no-repeat center}
-.banner-community .slide3{ background: url("http://source.vipabc.com/Ext/images/website/abc/homePage/v3/pic01-wyz.jpg") no-repeat center}
-.banner-community .slide4{ background: url("http://source.vipabc.com/Ext/images/website/abc/homePage/v3/pic01-zyt.jpg") no-repeat center}
-
 .com-reason{background: #f8f8f8; padding: 20px; font-size: 16px; position: relative; line-height: 1.6em; color: #444;
     border-radius: 7px; margin-bottom: 40px}
 .com-reason p{height: 100px; overflow: hidden}
@@ -461,25 +422,7 @@ option{width: 100%}
 
 .course-com .thumbnail .img-wrapper{position: relative;}
 .course-com .thumbnail .img-wrapper img{width: 100%;}
-.course-com .thumbnail .img-wrapper .course-title{
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    z-index: 10;
-    width: 94%;
-    padding: 6px 3%;
-    font-size: 16px;
-    color: #fff;
-    background: url("http://source.vipabc.com/Ext/images/website/abc/freelobby/specialSession/new/title_bg.png") repeat;
-    word-break: keep-all;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
 
-    -webkit-box-sizing: content-box;
-    -moz-box-sizing: content-box;
-    box-sizing: content-box;
-}
 .course-com .thumbnail .caption .time{
     line-height: 35px;
 }
@@ -515,14 +458,6 @@ option{width: 100%}
 .qa h4{font-weight: bold; margin-bottom: 20px;}
 .qa p{color: #666; font-size: 14px; line-height: 2em}
 
-.fav{width: 15px;height: 15px; display: inline-block;/* background: url("http://source.vipabc.com/Ext/images/website/abc/homePage/v3/fav.png") no-repeat; */ vertical-align: middle;}
-.qa .active .fav{ background: url("http://source.vipabc.com/Ext/images/website/abc/homePage/v3/fav-active.png") no-repeat;}
-.qa .active{color: #f74c4c}
-.qa-list>div{margin-bottom: 30px;}
-.qa .info{height: auto;overflow: hidden}
-.qa>p:last-child{margin-bottom: 0}
-.qa.last{padding: 80px 30px;}
-.qa .btn-danger-clear{border-radius: 50px}
 .col-lg-img{position: relative}
 .col-lg-img img{width: 100%; border-radius: 6px;}
 .col-lg-img p{padding:10px 5px;position: absolute; left: 0; right: 0; bottom: 0; background: rgba(0,0,0,0.5); border-radius: 0 0 6px 6px;
@@ -541,7 +476,6 @@ option{width: 100%}
 .about-video .info p small{color: #fff !important; font-size: 16px}
 .play-btn{position: absolute; left: 50%; top: 280px; margin-left: -45px; cursor: pointer}
 /*about us*/
-.banner-about{background: url("http://source.vipabc.com/Ext/images/website/abc/homePage/v3/about-banner.jpg") no-repeat center; width: 100%; height: 500px; position: relative}
 .banner-about h1{color: #fff; padding-top:120px; line-height: 2em; margin-top: 0}
 .introduces{width: 750px; background: #f8f8f8; padding: 50px;; font-size: 14px; line-height: 1.8em;
 position: absolute; left: 50%; margin:-150px 0  0 -375px;}
@@ -588,20 +522,6 @@ position: absolute; left: 50%; margin:-150px 0  0 -375px;}
 .box-gray-lg hr{border-color: #acacac}
 .box-gray-lg .num{font-size: 32px; font-weight: bold}
 
-.fill-in-form .gift{width: 365px; background: url("http://source.vipabc.com/Ext/images/website/abc/homePage/v3/gift-line.png") no-repeat right center}
-.fill-in-form .gift h4{margin-top: 35px;}
-.fill-in-form .gift h4 p{margin-bottom: 5px;}
-.fill-in-form .gift span{color: #484848}
-.fill-in-form .gift .text-muted{color: #acacac}
-.fill-in-form .form-modal {float: left;;width: 300px; margin: 60px 0 0 70px;}
-.fill-in-form .form-modal .form-group{margin-bottom: 20px;}
-.fill-in-form .close{position: absolute; top: 20px;right: 20px; opacity: .65; cursor: pointer;z-index: 999}
-.fill-in-form .close:hover{position: absolute; top: 20px;right: 20px; opacity: 1; cursor: pointer;z-index: 999}
-.fill-in-form .info{color: #acacac;font-size: 14px;}
-.fill-in-form .info a{color:#acacac;}
-/*.fill-in-form .info span{display: inline-block; vertical-align: middle}*/
-
-
 /*scrollspy-wrap*/
 
 /*.scrollspy-wrap{height: 1px}*/
@@ -627,13 +547,6 @@ position: absolute; left: 50%; margin:-150px 0  0 -375px;}
 .ipad-min2-1{left: 40.5%; z-index: 1000; position: fixed}
 .mac-bg{left: 40.5%;  z-index: 999; position: fixed}
 .height-div-sm{height: 300px}
-.kehoupingfen{position: absolute;left: 80px; top: 140px;z-index: 1020; background: url("http://source.vipabc.com/Ext/images/website/abc/homePage/v3/video/kehoupingfen.jpg") no-repeat; width: 610px;height: 456px; display: none}
-.shezhigerenpianhao{position: fixed;left:  80px; top: 140px;z-index: 1020;background: url("http://source.vipabc.com/Ext/images/website/abc/homePage/v3/video/course-DCGS.jpg") no-repeat; width: 610px;height: 456px;display: none}
-.dingke{position: fixed;left: 80px; top: 140px;z-index: 1020;background: url("http://source.vipabc.com/Ext/images/website/abc/homePage/v3/video/dingke.jpg") no-repeat; width: 610px;height: 456px;display: none}
-.kaishixuexi{position: fixed;left:80px; top: 140px;z-index: 1020;width:372px;height:280px;display: none;}
-.h2-a{position: fixed; top: 80px;text-align: center; left: 0; right: 0}
-/*.mac-bg-ipad{left: 40.5%;  z-index: 999; background:url("http://source.vipabc.com/Ext/images/website/abc/homePage/v3/mac-bg.png") no-repeat right bottom; width: 920px; height:520px; position: relative}*/
-.mac-bg-ipad{left: 40.5%;  z-index: 999; background:url("http://source.vipabc.com/Ext/images/website/abc/homePage/v3/mac-bg.png") no-repeat right bottom; width: 920px; height:520px; position: relative}
 
 .ipadnav{width: 250px;height: 400px}
 .ipadnav li{ display: block; float: none}
@@ -643,35 +556,6 @@ position: absolute; left: 50%; margin:-150px 0  0 -375px;}
 
 .ipadtabs>li{position: relative; padding-left: 0}
 .ipadtabs>li>div{position: absolute; width: 300px;}
-
-
-/*customer-story*/
-.banner-customer{background: url("http://source.vipabc.com/Ext/images/website/abc/homePage/v3/cs-banner.jpg") no-repeat;height: 630px; text-align: left; color: #fff}
-.banner-customer .info{width: 660px; margin-top:160px;line-height: 1.5em}
-.banner-customer h1{margin: 0; font-size: 36px;line-height: 1.5em}
-.banner-customer h4{margin-top: 30px;line-height: 1.5em}
-.banner-customer .profile{margin-top: 70px;}
-.banner-customer .profile .name{font-size: 30px;font-weight: bold; display: block;margin-bottom: 15px;}
-.cs-player{position: absolute; right: 0; bottom: 0px; width: 115px;height: 115px;}
-.cs-player:hover{opacity: 0.8; filter: alpha(opacity=80);}
-.attribute{padding: 35px 0; text-align: center; font-size: 16px; color: #666}
-.attribute h4{font-size: 30px;}
-h2.sm{font-size: 36px;}
-.cs-article{width: 870px; font-size: 18px; margin-left:auto; margin-right:auto}
-.motto{display: table; width: 100%}
-.motto>div{display: table-cell;}
-.motto>.left{background: #bc7663; font-size: 30px;color: #fff; vertical-align: middle; line-height: 1.8em }
-.motto>.right{width: 1040px; }
-.cs-from{background: url("http://source.vipabc.com/Ext/images/website/abc/homePage/v3/cs-img5.png") no-repeat left bottom; height: 500px;}
-.cs-from>div{margin-top: 70px;}
-.cs-from button{width: 60%; margin-left: auto;margin-right: auto}
-.cs-from a{text-decoration: underline; color: #484848}
-.cs-member-feel .thumbnail{border:1px solid #ddd; border-radius: 6px; padding-top: 40px;}
-.cs-member-feel .thumbnail:hover{border:1px solid #666;}
-.cs-member-feel .thumbnail img{border-radius: 0}
-.cs-member-feel .thumbnail .caption{padding-bottom: 10px}
-.cs-member-feel .thumbnail .caption>p:last-child{opacity: 0; filter: alpha(opacity=0);}
-.cs-member-feel .thumbnail:hover .caption>p:last-child{display: block;opacity: 10; filter: alpha(opacity=100);}
 
 .home-marquee li{width: 100%}
 
@@ -689,95 +573,6 @@ h2.sm{font-size: 36px;}
 
 .dropdown-menu > li > a:hover{background: #ececec}
 /* for ie8*/
-/*.video-modal .modal-dialog .modal-content{background:url("http://source.vipabc.com/Ext/images/website/abc/homePage/v3/bost.jpg") no-repeat center\9;min-height: 480px\9; background-size: cover\9}*/
-.video-dcgs{width: 890px\9 !important;height: 480px\9 !important;}
-.vjs-default-skin .vjs-big-play-button{display: none}
-@media (max-width: 768px){
-
-    .tabs-left{position: relative;height: auto}
-
-    .tabs-left>.bottom{position: absolute; bottom: 20px; display: none}
-    .iphone-bg{position: absolute; left: 40px; bottom: 10px !important;
-        background: url("http://source.vipabc.com/Ext/images/website/abc/homePage/v3/iphone-bg.png"); background-size: cover;
-        padding: 6px 20px 0 26px;        width: 300px;  }
-    .ipad-bg{position: absolute; right: 0px; bottom:10px;background: url("http://source.vipabc.com/Ext/images/website/abc/homePage/v3/ipad-bg.png");
-        background-size: cover; width: 50%; height: auto;   padding: 20px 15px 0 10px
-    }
-    div[class^="col-md-"]{margin-bottom: 10px}
-    .response-img{width: 100%}
-    .mr-125{margin: 0}
-    .w90{width: 100%}
-    .container.width73per{width: 98% !important;}
-    .course-list .btn-radius{width: 100%}
-
-
-}
-@media (min-width: 768px){
-    .container.width73per{width: 98% !important;}
-    .nav > li > a{padding-left: 6px;padding-right: 6px;}
-    .navbar-default .navbar-nav>li>a,#main-menu.navbar-default .navbar-nav > li > a,#main-menu.navbar-default.on .navbar-nav > li > a{font-size: 14px;}
-    .level-group li{width: 45px; margin-left: 5px}
-    .course-list .btn-radius{width: 100%}
-    .footer-list>li{ padding: 0 3px; }
-    .footer-list>li:first-child{width: 148px}
-    .footer-list .btn-default{width: 148px}
-    .footer-list>li:last-child{margin-left: 5px}
-    #footer .container{padding: 0}
-/*     .footer-blogroll { margin-top: 38px; margin-left: 140px; } */
-   .footer-blogroll { margin-top: 38px; }
-    .teachers-img3 .title{width: 58%;}
-    .scheme-1 h2{font-size: 34px}
-    .home-media{width: 720px; margin-left: auto; margin-right: auto}
-    .home-media .media-body{width: 560px !important;}
-    .custom-list{overflow: hidden; margin-top: 40px; padding-left:14.5px;}
-    .custom-list li{padding: 12px 2px}
-    .list .info { padding: 62px 10px 0;}
-    .pt-200 {  padding-top: 100px; }
-    .teachers-info h3{font-size: 24px;}
-    .pull-right.mr-125{margin-top: 50px}
-    #main-menu.navbar-default .navbar-nav > li > a{letter-spacing:normal;}
-}
-@media (min-width: 992px){
-    .nav > li > a{padding-left: 15px;padding-right: 15px;}
-    #main-menu.navbar-default .navbar-nav > li > a{letter-spacing:1px;}
-    .level-group li{width: 58px;margin-left: 10px;}
-    .course-list .btn-radius{width: 148px}
-    .footer-list>li{float: left; padding: 0 16px; vertical-align: top; text-align: left !important; }
-    .footer-list>li:first-child{width: 178px;margin-right: 25px;}
-    /*.footer-list>li:first-child .btn-group{display: block}*/
-    .footer-list>li:first-child{padding-left: 0;/* display: none; */}
-    .footer-list>li:last-child{padding-right: 0; margin-left: 0}
-/*     .footer-blogroll {  margin-top: 38px;  margin-left: 176px;    } */
-    .footer-blogroll {  margin-top: 38px;  margin-left:0px;padding-left: 16px;}
-    .teachers-img3 .title{width: 60%}
-    .scheme-1 h2{font-size: 38px}
-    .home-media{width: 770px; margin-left: auto; margin-right: auto}
-    .home-media .media-body{width: 600px;}
-    .custom-list{overflow: hidden; margin-top: 40px; padding-left: 0;}
-    .custom-list li{padding: 4.5px; display: inline;}
-    .custom-list li img{width: 100%; }
-    .list .info {  padding: 62px 20px 0; }
-    .pt-200 {  padding-top: 200px; }
-    .teachers-info h3{font-size: 31px;}
-    .pull-right.mr-125{margin-top: 0px}
-}
-@media (min-width: 1200px){
-    .container.width73per{width: 73% !important;}
-     .nav > li > a{padding-left: 9px;padding-right: 9px;}
-    .container {width: 984px;}
-    .container-lg{width: 1140px; margin-right: auto; margin-left: auto}
-    .level-group li{width: 60px;margin-left: 10px;}
-    .navbar-default .navbar-nav>li>a, #main-menu.navbar-default .navbar-nav > li > a, #main-menu.navbar-default.on .navbar-nav > li > a{font-size:16px;}
-}
-
-@media (min-width: 1440px){
-    .qa p{font-size: 16px; }
-    .nav > li > a{padding-left: 15px;padding-right: 15px;}
-    .introduces{font-size: 16px; }
-    .home-body p{ font-size: 16px;}
-    .container.width73per{width: 73% !important;}
-}
-
 
 /*base css*/
 p{letter-spacing:1px; }
@@ -966,54 +761,332 @@ footer.bg-gray-dark{background: #505050}
 {
     top: 25px;
     left: 10px;}
-.site-drainage .myselect 
-{
-    float:right;
-    padding:24px 0;
-    margin-right:38px;
-    color: #484848;
-    width: 116px;
-     *width: 124px;
-    }
- .site-drainage .myselect label{font-weight:normal;}
-.drainage-close{
-	float:right;
-	display:block;
-	width:16px;
-	height:16px;
-	margin:15px 15px 0 0;
-	background:url("http://source.vipabc.com/ext/images/website/abc/homePage/v3/pc/close_icon.png") no-repeat center 0;
-	cursor:pointer;
-}
+
 .drainage-close:hover{background-position:center -16px;}
-@media all and (max-width:850px){
-.site-drainage{width:726px;height:auto;}
-.site-drainage .drainage-box h3{font-size:18px;line-height:24px;padding:15px 0;}
-.site-drainage .drainage-div{margin:0 19px;}
-.site-drainage .drainage-div .adult-users  
- {      
-     width:454px;
-     margin-right:7px;
-     margin-bottom:7px;
-  }
-.site-drainage .drainage-div .teen-users
-   {    
-       width:222px;
- }
-.site-drainage .drainage-div .freecourse, .site-drainage .drainage-div .Enterprise-users, .site-drainage .drainage-div .studyabroad
-   {
-       width:224px; }
- .site-drainage .drainage-div .freecourse,.site-drainage .drainage-div .studyabroad{margin-right:7px;}
- .site-drainage .drainage-div .adult-users span{top:44px;}
- .site-drainage .drainage-div div a span strong{font-size:24px;padding-bottom: 8px;}
- .site-drainage .drainage-div.en-version div a span strong{font-size: 17px;line-height: 20px;}
- .site-drainage .drainage-div.en-version div a span em{font-size:13px;line-height: 16px;}
- .site-drainage .drainage-div div a span em{font-size:14px;}
- .site-drainage .drainage-div .freecourse a span em,.site-drainage .drainage-div .Enterprise-users a span em,.site-drainage .drainage-div .studyabroad a span em
-{   display:block;
+
+@media (max-width: 991px) and (min-width: 768px) {
+    .logo {
+        height: 54px;
+        background-size: 100%;
     }
-.site-drainage .myselect {padding:15px 0;}
-	
+}
+@media (max-width: 991px) {
+    .header-wrapper .navbar-right {
+        float: right !important;
+    }
+
+    .imgDisplay {
+        display: none;
+    }
+
+    .bg_4 {
+        background-image: none;
+    }
+
+    .col-md-8-new {
+        width: 100%;
+    }
+
+    .col-md-4-new {
+        width: 33.33333333%;
+        float: left;
+    }
+
+    .padding991 {
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    .padding991Title {
+        margin-bottom: 10px;
+    }
+
+    .padding991Title:after {
+        margin: 5px auto 0;
+    }
+
+    .padding991Box {
+        padding: 0 30px;
+    }
+
+    .text-center-991 {
+        text-align: left;
+    }
+    .text-center-991 label {
+        width: 100%;
+    }
+
+    .text-box-991 {
+        padding: 20px 0;
+        margin: 20px 0;
+    }
+    .text-box-991 .row .col-md-4 {
+        width: 33.3333333%;
+        float: left;
+        padding: 0;
+    }
+}
+@media (min-width: 768px) {
+    .col-md-2 {
+        width: 16.66666667%;
+    }
+
+    .col-md-10 {
+        width: 83.33333333%;
+    }
+
+    .row.col-p30 [class*="col-"] {
+        padding: 0 20px;
+    }
+}
+@media (max-width: 767px) {
+    .topbar .pull-right {
+        float: none !important;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    .topbar {
+        padding: 0;
+    }
+
+    .stats-timer {
+        font-size: 40px;
+    }
+
+    .resize769 {
+        display: none;
+    }
+
+    .resize768 {
+        display: block;
+    }
+
+    .padding50 {
+        margin: 50px 0;
+    }
+
+    .padding991boxtwo {
+        content: "";
+        display: block;
+        clear: both;
+    }
+
+    .detailsPadding {
+        padding-bottom: 30px;
+    }
+
+    .positionBox {
+        width: 50%;
+        float: left;
+    }
+
+    .container-box-Text {
+        margin-top: 5px !important;
+        font-size: 16px !important;
+        line-height: 22px !important;
+    }
+
+    .listBox {
+        width: 50%;
+        float: left;
+    }
+
+
+    .menu > li > a {
+        font-size: 16px;
+    }
+
+    .tit_join {
+        left: 10%;
+        top: 20%;
+    }
+
+    .col-xs-8-new {
+        width: 100%;
+    }
+
+    .mt768 {
+        margin: 0 !important;
+    }
+
+    .p0768 {
+        padding: 0 15px !important;
+    }
+
+    .hidden768 {
+        display: none;
+    }
+
+    .mb20768 {
+        margin-bottom: 20px !important;
+    }
+
+    .menu li {
+        color: #fff;
+        border-bottom: 4px solid #292c31;
+        -webkit-transition: none;
+        transition: none;
+    }
+
+    menu > li > a {
+        border-bottom: 4px solid #292c31;
+        -webkit-transition: none;
+        transition: none;
+    }
+
+    .menu > li.active {
+        border-bottom: 4px solid #292c31;
+        -webkit-transition: none;
+        transition: none;
+    }
+
+    .menu > li > a:hover,
+    .menu > li > a:focus,
+    .menu > li:hover > a {
+        -webkit-transition: none;
+        transition: none;
+    }
+
+    .h2Font {
+        line-height: 30px;
+        margin-top: 60px;
+    }
+
+    .video768 {
+        display: none;
+    }
+
+    .col-md-4-new {
+        font-size: 10px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+}
+@media (max-width: 991px) {
+    .stats-timer {
+        font-size: 30px;
+    }
+    .stats-content-new2 span{
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 768px) {
+
+
+    .view .portfolio-middle .br-bottomH3 {
+        font-size: 64px;
+    }
+
+    .portfolio-middle-new {
+        margin-left: -129px;
+    }
+
+    .view .date.newDate {
+        font-size: 34px;
+        text-align: center;
+        margin-right: -68px;
+    }
+
+    .stats-content-new2{line-height: 25px;}
+
+
+}
+
+
+@media (max-width: 550px) {
+    .header-wrapper .navbar-right {
+        float: none !important;
+    }
+
+}
+@media all and (max-width: 790px) {
+
+    .sp-character .item-icon{
+        width: 24%;
+        padding: 0 38%;
+    }
+
+}
+
+
+@media all and (max-width: 550px) {
+
+    .sp-character .item-icon{
+        width: 40%;
+        padding: 0 30%;
+    }
+}
+
+
+@media all and (max-width: 330px) {
+
+    .sp-character .item-icon{
+        width: 50%;
+        padding: 0 25%;
+    }
+}
+@media all and (max-width: 1800px) {
+
+    .welfare-list-wrap .col-md-4-new div {padding-left: 0;}
+
+}
+
+@media all and (max-width: 1400px) {
+
+    .welfare-list-wrap{
+        background-position: 62% center;
+    }
+    .welfare-list-wrap .col-md-8{
+        width: 80%;
+    }
+
+}
+
+@media all and (max-width: 1000px) {
+
+    .welfare-list-wrap .col-md-8 .col-xs-8{
+        width: 90%;
+    }
+
+}
+
+@media all and (max-width: 991px) {
+
+    .welfare-list-wrap .col-md-8{
+        width: 100%;
+    }
+    .welfare-list-wrap .col-md-8 .col-xs-8{
+        width: 70%;
+        margin: 0 15%;
+    }
+
+}
+
+
+@media all and (max-width: 790px) {
+
+    .welfare-list-wrap .col-md-8 .col-xs-8{
+        width: 80%;
+        margin: 0 10%;
+    }
+
+}
+
+@media all and (max-width: 600px) {
+
+    .welfare-list-wrap .col-md-8 .col-xs-8{
+        width: 100%;
+        margin: 0;
+    }
+
+    .welfare-list-wrap .col-md-8 .col-xs-8 .col-md-4-new{
+        width: 90%;
+        margin: 0 5%;
+    }
+    .welfare-list-wrap .col-md-8 .col-xs-8 .col-md-4{margin-bottom: 20px;}
+
 }
 
 

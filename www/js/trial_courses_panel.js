@@ -41,9 +41,9 @@
         $(this).slideUp(200, function(){
             $(this).parent().parent().css('z-index', '900');
         });
-        //var result = getValidate($(this).parent().parent());
+        var result = getValidate($(this).parent().parent());
 
-        //handleChangeState($(this).parent().parent(), result);
+        handleChangeState($(this).parent().parent(), result);
     })
 
 
@@ -55,11 +55,11 @@
         var tel = $('.input-wrapper[name="tel"] input').val();
         var has_pad = $('.input-wrapper[name="has-pad"] .fake-select').attr('value');
 
-        //console.log(name, grade, tel, has_pad);
+        console.log(name, grade, tel, has_pad);
 
         //console.log('phone number : ' + tel);
 
-        if(subject=='' || grade=='' || tel=='' || has_pad==''){
+        if(subject=='' || grade=='' || tel=='' || has_pad=='' || !subject || !grade || !has_pad){
             var alert = $('.alert-wrapper');
 
             alert.removeClass('hidden');
@@ -92,7 +92,8 @@
                 'subject': subject,
                 'grade': grade,
                 'phone': tel,
-                'has_pad': has_pad
+                'has_pad': has_pad,
+                'origin':'www'
             },
             dataType: 'JSONP',
             success: function(result){
@@ -107,9 +108,9 @@
                     return ;
                 } else {
                     var html = '';
-                    html += '<div class="img-ct" ><img src="./new_page/images/codetwo.png" alt=""></div>';
+                    html += '<div class="img-ct" ><img src="http://leohtml.oss-cn-shanghai.aliyuncs.com/www/img/codetwo.png" alt=""></div>';
                     html += '<p class="weixin">理优教育在线学习APP</p>';
-                    html += '<p class="success">&nbsp&nbsp&nbsp&nbsp查看课程安排进度，了解更多课程信息请关注我们的微信公众号，1对1专属定制课程请拨打免费热线400-158-0101。</p>';
+                    html += '<p class="success">&nbsp&nbsp&nbsp&nbsp查看课程安排进度，了解更多课程信息请关注我们的微信公众号，1对1专属定制课程请拨打免费热线400-169-3070。</p>';
 
                     $('.trial-courses-panel .title-ct .title').text('祝贺您预约成功！');
                     $('.trial-courses-panel .panel-content').empty().append(html);
@@ -122,7 +123,7 @@
 
 
     // close control
-    $('.trial-courses-panel > .close-btn').bind('click', function(){
+    $('#trial-close-btn').bind('click', function(){
         //console.log('aaaaaaaaaacloseeee');
         window.trial_courses_panel.is_show = false;
         $('#trial-courses-panel-wrapper').css('display', 'none');
@@ -143,7 +144,7 @@
 
             //console.log(result);
 
-            if(result == ''){
+            if(result == '' || !result){
                 return false;
             }
             return true;

@@ -20,11 +20,11 @@
 }
 
 .navbar-custom .navbar-text {
-    color: #ddd;
+    color: #333;
 }
 
 .navbar-custom .navbar-nav > li > a {
-    color: #ddd;
+    color: #333;
 }
 .navbar-custom .navbar-nav > li > a:hover,
 .navbar-custom .navbar-nav > li > a:focus {
@@ -40,7 +40,7 @@
 .navbar-custom .navbar-nav > .open > a,
 .navbar-custom .navbar-nav > .open > a:hover,
 .navbar-custom .navbar-nav > .open > a:focus {
-    color: #ddd;
+    color: #333;
     background-color: #fff;
 }
 .navbar-custom .navbar-toggle {
@@ -84,7 +84,7 @@
 }
 .nav li {
     float:left;
-    color:#ddd;
+    color:#333;
     font-size:18px;
 }
 
@@ -108,7 +108,7 @@
 
 .nav a {
     display:inline-block;
-    color:#ddd;
+    color:#333;
     outline:none;
     width:100%;
 }

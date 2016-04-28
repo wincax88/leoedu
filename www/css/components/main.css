@@ -32,7 +32,7 @@ h3.small {
 .hovereffect {
     width:100%;
     height:100%;
-    float:left;
+    /*float:inherit;*/
     overflow:hidden;
     position:relative;
     text-align:center;
@@ -55,6 +55,7 @@ h3.small {
 .hovereffect img {
     display:block;
     position:relative;
+    margin: 0 auto;
     -webkit-transition:all 0.5s linear;
     transition:all 0.5s linear;
 }
@@ -67,7 +68,7 @@ h3.small {
 
 .section-tutor {
     height: 600px;
-    background-color: #f3f3f3;
+    background-color: #f8f8f8;
 }
 
 .tutor-text {
@@ -85,11 +86,13 @@ h3.small {
 
 .section-map {
     height: 600px;
-    background-color: #333;
+    position: relative;
+    background:#333;
 }
 
 .map-chart {
-    height: 600px;
+    height: 500px;
+    width: 500px;
 }
 
 .map-text {
@@ -111,12 +114,12 @@ h3.small {
     position: absolute;
     right: 46%;
     bottom: 0;
-    background:url("http://source.vipabc.com/Ext/images/website/abc/homePage/v3/comp-2-100.png") no-repeat;
+    background:url("http://leohtml.oss-cn-shanghai.aliyuncs.com/www/img/service_team.png") no-repeat;
     width: 703px;
     height: 563px;
 }
 .team-bg {
-    background: #f3f3f3;
+    background: #fff;
 }
 .team-text p {
     font-size: 16px;
@@ -126,7 +129,7 @@ h3.small {
 /*.team-bg{background: #dbdbdb}*/
 
 .lean-text {
-    padding-top: 100px;
+    padding-top: 20px;
     line-height: 2.0em
 }
 
@@ -136,8 +139,8 @@ h3.small {
 }
 
 .section-pad {
-    height: 600px;
-    background-color: #f3f3f3;
+    height: 750px;
+    background-color: #fff;
 }
 
 .ipad-video {
@@ -147,12 +150,48 @@ h3.small {
 }
 
 .ipad-min {
-    /*position: fixed;*/
-    top: 50%;
-    left: 50%;
-    background-image: url("http://source.vipabc.com/Ext/images/website/abc/homePage/v3/ipad-min.png") no-repeat;
-    background-size:contain;
-    width:50%;
-    height: 50%;
-    -webkit-transform: translateX(-50%) translateY(-50%);
+    display:block;
+    width: 770px;
+    height: 528px;
+    background: url("http://leohtml.oss-cn-shanghai.aliyuncs.com/www/img/ipad-min.png") no-repeat;
+    background-size: contain;
+    text-align:center;
+    margin:0 auto;
+}
+
+.section-pad .text-center {
+    padding-top: 20px;
+}
+.section-pad h2.text-center {
+    font-size: 32px;
+}
+
+.section-pad h2.text-center small {
+    font-size: 16px;
+    margin-top: 20px;
+    line-height: 2.0em
+}
+
+.home-teachers {
+    padding-top: 34px;
+    padding-right: 10px;
+}
+
+.hide-img2{
+    display: block;
+    overflow: hidden;
+}
+div.thumbnail a span.hide-img2 img{
+    transition: all 1.1s ease-in-out 0s;
+}
+div.thumbnail a span.hide-img2:hover img{transform: scale(1.1);}
+
+.hide-img2 {
+    display: block;
+    /*width: 462px; height: 268px;*/
+    overflow: hidden;
+    position: relative;
+    z-index: 9;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
 }

@@ -187,10 +187,11 @@ if (navigator.userAgent.match(/iPad/i)) {
 }
 */
 //banner轮播
+/*
 $("#owl-home").owlCarousel({
 
     autoPlay: 5000,
-    /*stopOnHover: true,*/
+
     navigation: true,
     slideSpeed: 300,
     lazyLoad: true,
@@ -199,7 +200,7 @@ $("#owl-home").owlCarousel({
     transitionStyle: "fade",
     addClassActive: true
 
-});
+});*/
 
 $('#fixed-service-box div.iconfont').hover(
     function(){
@@ -302,3 +303,11 @@ if (!(/msie [6|7|8]/i.test(navigator.userAgent))) {
 
     initSkrollr();
 }
+
+var _hmt = _hmt || [];
+(function() {
+    var hm = document.createElement("script");
+    hm.src = "//hm.baidu.com/hm.js?ea1e6da6ef915778cb60801fd7b3fd54";
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(hm, s);
+})();

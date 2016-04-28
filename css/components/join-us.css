@@ -74,4 +74,13 @@
     color:#707070;
 }
 
-.mail{font-weight:bold;}
+.mail {
+    font-weight:bold;
+}
+
+.mail a {
+    color:#707070;
+    font-weight:bold;
+}
+.mail a:hover{text-decoration:underline;}
+

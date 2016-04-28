@@ -12,7 +12,7 @@ $(function(){
 
     });
 })
-
+/*
 window.onload = function() {
     var oDiv1 = document.getElementById('left');
     var oDiv2 = document.getElementById('right');
@@ -21,4 +21,4 @@ window.onload = function() {
         var aHeight2 = oDiv2.offsetHeight;
         oDiv2.style.height = aHeight1 - 66 + 'px';
     }
-}
+}*/

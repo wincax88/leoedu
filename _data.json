@@ -1,15 +1,33 @@
 {
   "index": {
     "pageTitle": "首页",
-    "banner1": "./img/main_banner_01.jpg",
-    "banner2": "./img/main_banner_02.jpg",
+    "banner1": "http://leohtml.oss-cn-shanghai.aliyuncs.com/www/img/main_banner_01.jpg",
+    "banner2": "http://leohtml.oss-cn-shanghai.aliyuncs.com/www/img/main_banner_02.jpg",
     "banner1_href": "#",
-    "banner2_href": "https://shop123923740.taobao.com"
+    "banner2_href": "https://shop123923740.taobao.com",
+    "xubeiyi_png":"http://leohtml.oss-cn-shanghai.aliyuncs.com/www/img/xubeiyi.png",
+    "chenfangyi_png":"http://leohtml.oss-cn-shanghai.aliyuncs.com/www/img/chenfangyi.png",
+    "jinchengjie_png":"http://leohtml.oss-cn-shanghai.aliyuncs.com/www/img/jinchengjie.png",
+    "ipad_mini_png":"http://leohtml.oss-cn-shanghai.aliyuncs.com/www/img/ipad-min.png",
+    "ipad_demo_mp4":"http://leohtml.oss-cn-shanghai.aliyuncs.com/www/video/ipad_demo-ipad.mp4"
   },
   "download":{
-    "pageTitle": "APP下载"
+    "pageTitle": "APP下载",
+    "pad_png":"http://leohtml.oss-cn-shanghai.aliyuncs.com/www/img/pad.png",
+    "padStudent_png":"http://leohtml.oss-cn-shanghai.aliyuncs.com/www/img/padStudent.png",
+    "phone_png":"http://leohtml.oss-cn-shanghai.aliyuncs.com/www/img/phone.png",
+    "step01_gif":"http://leohtml.oss-cn-shanghai.aliyuncs.com/www/img/step01.gif",
+    "step02_gif":"http://leohtml.oss-cn-shanghai.aliyuncs.com/www/img/step02.gif",
+    "step03_gif":"http://leohtml.oss-cn-shanghai.aliyuncs.com/www/img/step03.png",
+    "step04_gif":"http://leohtml.oss-cn-shanghai.aliyuncs.com/www/img/step04.png",
+    "close_png":"http://leohtml.oss-cn-shanghai.aliyuncs.com/www/img/close.png",
+    "m_parent_png":"http://leohtml.oss-cn-shanghai.aliyuncs.com/www/img/m_parent.png",
+    "m_student_png":"http://leohtml.oss-cn-shanghai.aliyuncs.com/www/img/m_student.png",
+    "m_teacher_png":"http://leohtml.oss-cn-shanghai.aliyuncs.com/www/img/m_teacher.png"
   },
   "join-us":{
-    "pageTitle": "加入我们"
+    "pageTitle": "加入我们",
+    "joinUs_png":"http://leohtml.oss-cn-shanghai.aliyuncs.com/www/img/joinUs.jpg"
   }
+
 }

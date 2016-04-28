@@ -32,7 +32,7 @@ h3.small {
 .hovereffect {
     width:100%;
     height:100%;
-    float:left;
+    /*float:inherit;*/
     overflow:hidden;
     position:relative;
     text-align:center;
@@ -55,6 +55,7 @@ h3.small {
 .hovereffect img {
     display:block;
     position:relative;
+    margin: 0 auto;
     -webkit-transition:all 0.5s linear;
     transition:all 0.5s linear;
 }
@@ -67,7 +68,7 @@ h3.small {
 
 .section-tutor {
     height: 600px;
-    background-color: #f3f3f3;
+    background-color: #f8f8f8;
 }
 
 .tutor-text {
@@ -113,12 +114,12 @@ h3.small {
     position: absolute;
     right: 46%;
     bottom: 0;
-    background:url("http://source.vipabc.com/Ext/images/website/abc/homePage/v3/comp-2-100.png") no-repeat;
+    background:url("http://leohtml.oss-cn-shanghai.aliyuncs.com/www/img/service_team.png") no-repeat;
     width: 703px;
     height: 563px;
 }
 .team-bg {
-    background: #f3f3f3;
+    background: #fff;
 }
 .team-text p {
     font-size: 16px;
@@ -138,8 +139,8 @@ h3.small {
 }
 
 .section-pad {
-    height: 700px;
-    background-color: #f3f3f3;
+    height: 750px;
+    background-color: #fff;
 }
 
 .ipad-video {
@@ -150,9 +151,9 @@ h3.small {
 
 .ipad-min {
     display:block;
-    width: 780px;
-    height: 520px;
-    background: url("http://source.vipabc.com/Ext/images/website/abc/homePage/v3/ipad-min.png") no-repeat center center;
+    width: 770px;
+    height: 528px;
+    background: url("http://leohtml.oss-cn-shanghai.aliyuncs.com/www/img/ipad-min.png") no-repeat;
     background-size: contain;
     text-align:center;
     margin:0 auto;
@@ -167,9 +168,30 @@ h3.small {
 
 .section-pad h2.text-center small {
     font-size: 16px;
+    margin-top: 20px;
+    line-height: 2.0em
 }
 
 .home-teachers {
-    padding-top: 35px;
-    padding-right: 13px;
+    padding-top: 34px;
+    padding-right: 10px;
+}
+
+.hide-img2{
+    display: block;
+    overflow: hidden;
+}
+div.thumbnail a span.hide-img2 img{
+    transition: all 1.1s ease-in-out 0s;
+}
+div.thumbnail a span.hide-img2:hover img{transform: scale(1.1);}
+
+.hide-img2 {
+    display: block;
+    /*width: 462px; height: 268px;*/
+    overflow: hidden;
+    position: relative;
+    z-index: 9;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
 }
