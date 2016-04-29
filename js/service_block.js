@@ -3,7 +3,7 @@
  */
 
 $('.go_for_service').on('click', function(){
-    window.open('/baichuanim/service_chat_panel.html');
+    window.open('/service_chat_panel.html');
 });
 
 document.getElementById("service_wechat").onmouseover = function(){

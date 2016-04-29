@@ -839,6 +839,40 @@ footer.bg-gray-dark{background: #505050}
         padding: 0 20px;
     }
 }
+@media (min-width: 992px){
+    .nav > li > a{padding-left: 15px;padding-right: 15px;}
+    #main-menu.navbar-default .navbar-nav > li > a{letter-spacing:1px;}
+    .level-group li{width: 58px;margin-left: 10px;}
+    .course-list .btn-radius{width: 148px}
+    .footer-list>li{float: left; padding: 0 16px; vertical-align: top; text-align: left !important; }
+    .footer-list>li:first-child{width: 178px;margin-right: 25px;}
+    /*.footer-list>li:first-child .btn-group{display: block}*/
+    .footer-list>li:first-child{padding-left: 0;/* display: none; */}
+    .footer-list>li:last-child{padding-right: 0; margin-left: 0}
+    /*     .footer-blogroll {  margin-top: 38px;  margin-left: 176px;    } */
+    .footer-blogroll {  margin-top: 38px;  margin-left:0px;padding-left: 16px;}
+    .teachers-img3 .title{width: 60%}
+    .scheme-1 h2{font-size: 38px}
+    .home-media{width: 770px; margin-left: auto; margin-right: auto}
+    .home-media .media-body{width: 600px;}
+    .custom-list{overflow: hidden; margin-top: 40px; padding-left: 0;}
+    .custom-list li{padding: 4.5px; display: inline;}
+    .custom-list li img{width: 100%; }
+    .list .info {  padding: 62px 20px 0; }
+    .pt-200 {  padding-top: 200px; }
+    .teachers-info h3{font-size: 31px;}
+    .pull-right.mr-125{margin-top: 0px}
+}
+
+@media (min-width: 1200px){
+    .container.width73per{width: 73% !important;}
+    .nav > li > a{padding-left: 9px;padding-right: 9px;}
+    .container {width: 984px;}
+    .container-lg{width: 1140px; margin-right: auto; margin-left: auto}
+    .level-group li{width: 60px;margin-left: 10px;}
+    .navbar-default .navbar-nav>li>a, #main-menu.navbar-default .navbar-nav > li > a, #main-menu.navbar-default.on .navbar-nav > li > a{font-size:16px;}
+}
+
 @media (max-width: 767px) {
     .topbar .pull-right {
         float: none !important;

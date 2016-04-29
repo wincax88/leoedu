@@ -95,13 +95,13 @@ $(document).ready(function(){
     // new
     window.trial_courses_panel = new CreatePanel({
         call_btn: $('.trial-courses-btn'),
-        snippet_url: '../baichuanim/trial_courses_panel.html',
+        snippet_url: '../trial_courses_panel.html',
         wrapper_id: 'trial-courses-panel-wrapper'
 
     });
 
     window.welcome_panel = new CreatePanel({
-        snippet_url: '../baichuanim/welcome_panel.html',
+        snippet_url: '../welcome_panel.html',
         wrapper_id: 'welcome-panel-wrapper'
     });
 
